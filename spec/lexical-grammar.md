@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2f14161222741beb7505f5674b230f1881828b5d
+ms.sourcegitcommit: 6eca149bdc736113e0adb709212bd266c9503c33
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "47426744"
+---
 # <a name="lexical-grammar"></a>字句文法
 
 Visual Basic プログラムのコンパイルでは、最初、レキシカル トークンの順序付けされたセットに Unicode 文字の生のストリームを変換する必要があります。 Visual Basic 言語は自由な形式ではないため、トークンのセットが一連の論理行にさらに分割します。 A*論理行*ストリームの末尾には、行連結文字または修飾されていない次の行終端記号をストリームの開始または行の終端からのスパン。
@@ -151,7 +159,7 @@ Module Test
 End Module
 ```
 
-暗黙的な行継続は、指定したトークンの前後に直接しか推論されます。 それらはない、行連結文字の前後に推論されます。 例えば:
+暗黙的な行継続は、指定したトークンの前後に直接しか推論されます。 それらはない、行連結文字の前後に推論されます。 例:
 
 ```vb
 Dim y = 10

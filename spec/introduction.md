@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 637b90ee9b164ebf6e152541de0aff6f7d791db1
+ms.sourcegitcommit: 6eca149bdc736113e0adb709212bd266c9503c33
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "47426733"
+---
 # <a name="introduction"></a>はじめに
 
 Microsoft&reg; Visual Basic&reg;は Microsoft .NET Framework の高度なプログラミング言語のプログラミング言語。 習得が簡単に、わかりやすい言語にされていますが、そのも経験豊富なプログラマのニーズを満たすのに十分な強力です。 Visual Basic プログラミング言語では、英語、わかりやすくするため、Visual Basic コードの読みやすさを促進する次のような構文があります。 可能な場合は、省略形、頭字語、または特殊文字の代わりにわかりやすい単語または語句が使用されます。 余分なまたは不要な構文は通常許可しますが、必要ありません。

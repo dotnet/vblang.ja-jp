@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 7286ee117cae82b03ebd92130383bd6051431100
+ms.sourcegitcommit: 6eca149bdc736113e0adb709212bd266c9503c33
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "47426757"
+---
 # <a name="attributes"></a>属性
 
 Visual Basic 言語により、プログラマは、宣言されているエンティティに関する情報を表す宣言に修飾子を指定できます。 たとえば、修飾子を使用してクラスのメソッドを付加すること`Public`、 `Protected`、 `Friend`、 `Protected Friend`、または`Private`アクセシビリティを指定します。
@@ -114,7 +122,7 @@ End Class
 
 `System.AttributeUsage`属性が、パブリック インスタンス変数`Inherited`、基本型で指定する場合は、属性がこの基本型から派生した型でも継承されたかどうかを指定します。 場合、`Inherited`パブリック インスタンス変数が初期化されていない、既定値は`False`使用されます。 プロパティおよびイベントは、プロパティおよびイベントによって定義されたメソッドが、属性を継承しないでください。 インターフェイスは、属性を継承しません。
 
-単一使用属性が継承および派生型で指定された、派生型で指定されている属性は継承された属性より優先されます。 場合は、複数の用途の属性が継承および派生型で指定されて、両方の属性は、派生型を指定します。 例えば:
+単一使用属性が継承および派生型で指定された、派生型で指定されている属性は継承された属性より優先されます。 場合は、複数の用途の属性が継承および派生型で指定されて、両方の属性は、派生型を指定します。 例:
 
 ```vb
 <AttributeUsage(AttributeTargets.Class, AllowMultiple:=True, _
@@ -280,7 +288,7 @@ End Class
 
 3. 変数/プロパティ初期化子のインスタンスそれぞれ`Arg`で`N`、`Name`インスタンス変数/プロパティの初期化子の識別子である`Arg`します。 `Name` 識別する必要があります以外`Shared`、書き込み可能な`Public`変数またはパラメーターなしのプロパティをインスタンス`T`型が属性の型。 場合`T`がそのようなインスタンスの変数またはプロパティ、コンパイル時エラーが発生します。
 
-例えば:
+例:
 
 ```vb
 <AttributeUsage(AttributeTargets.All)> _

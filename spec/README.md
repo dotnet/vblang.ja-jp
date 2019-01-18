@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6963cee85e9d8d8ab9d26fafce94e2c53747cea7
+ms.sourcegitcommit: 6eca149bdc736113e0adb709212bd266c9503c33
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "47426736"
+---
 <a name="visual-basic-language-specification"></a>Visual Basic 言語仕様
 =====================================
 __バージョン 11__
@@ -38,7 +46,7 @@ __バージョン 11__
     * [Imports ステートメント](source-files-and-namespaces.md#imports-statement)
     * [名前空間](source-files-and-namespaces.md#namespaces)
 * [型](types.md#types)
-    * [Value Types and Reference Types](types.md#value-types-and-reference-types)
+    * [値型と参照型](types.md#value-types-and-reference-types)
     * [インターフェイスの実装](types.md#interface-implementation)
     * [プリミティブ型](types.md#primitive-types)
     * [列挙型](types.md#enumerations)
