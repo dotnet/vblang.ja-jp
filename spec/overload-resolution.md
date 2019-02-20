@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: 56482503cc5ca005d7d0f405874e778cea0c3ed5
-ms.sourcegitcommit: 6eca149bdc736113e0adb709212bd266c9503c33
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "47426752"
----
-### <a name="overloaded-method-resolution"></a>オーバー ロードされたメソッドの解決
+# <a name="overloaded-method-resolution"></a>オーバー ロードされたメソッドの解決
 
 実際には、オーバー ロードの解決を決定するルールは、オーバー ロードは実際に指定された引数に「最も近い」を検索する対象としています。 パラメーター型、引数の型が一致メソッドの場合、そのメソッドが明らかに最も近いです。 1 つのメソッドはより狭い幅はすべて、パラメーターの型の場合、別のよりも近い、なし機能 (またはと同じ) 他のメソッドのパラメーターの型。 どちらのメソッドのパラメーターが他よりも狭い場合は、しがないの引数に近い方法を決定します。
 
@@ -271,7 +263,7 @@ __注意してください。__ オーバー ロードの解決は考慮され�
 
     76. 場合`M`拡張メソッドでないと`N`排除、`N`セットから。
 
-    77. 場合`M`と`N`拡張メソッドと`M`する前に見つかった`N`(セクション[拡張メソッドのコレクション](overload-resolution.md#extension-method-collection))、排除`N`セットから。 例:
+    77. 場合`M`と`N`拡張メソッドと`M`する前に見つかった`N`(セクション[拡張メソッドのコレクション](expressions.md#extension-method-collection))、排除`N`セットから。 例:
 
         ```vb
         Imports System.Runtime.CompilerServices
